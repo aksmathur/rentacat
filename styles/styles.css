@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  position: fixed;
+  height: 19rem;
+  background-color: #4F97B4;
+  width: 99%;
+  color: white;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 4rem;
+  margin-left: 10rem;
+  width: 70%;
+}
+header h2 {
+  font-size: 2rem;
+  font-style: oblique;
+  margin-left: 10rem;
+  width: 32%;
+}
+header nav {
+  background-color: #EBEBEB;
+  width: 100%;
+  position: absolute;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 7rem;
+  text-align: center;
+  align-items: center;
+}
+header nav ul li {
+  font-weight: bold;
+  flex-direction: row;
+  display: block;
+  color: white;
+  padding: 10px 10px;
+
+}
+.link-seperator {
+  border-right-style: solid;
+  border-right-color: #3A3A3A;
+}
+.navlink {
+  color: #3A3A3A;
+}
+//*section {
+  margin-top: 5rem;
+  overflow: auto;
+}*//
+body {
+  background-color: #EBEBEB;
+}
+main {
+  margin-top: 28em;
+  margin-left: 10rem;
+  margin-right: 10em;
+  margin-bottom: 5em;
+
+}
+.content-box {
+  float: left;
+  width: 70%;
+  margin-right: 5em;
+}
+footer {
+  height: 20rem;
+  background-color: #3A3A3A;
+}
+h3.intro {
+  color: #3492ad;
+  margin-top: 0;
+}
+.sidebar {
+  overflow: hidden;
+}
+.sidebar h3 {
+  text-transform: uppercase;
+  margin: 0;
+}
+.sidebar a {
+  color: #3492ad;
+}
+mark {
+  color: #3492ad;
+  background: none;
+}
+.weekly-cat {
+  margin-top: 2rem;
+}
+.page-footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #3A3A3A;
+  width: 99%;
+  height: 18em;
+  margin: 10;
+}
+.page-footer p {
+  width: 400px;
+  color: white;
+  margin: 1.5rem;
+}
+.page-footer section {
+  margin: 5rem;
+  font-size: .75rem;
+}
+.page-footer ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+li.separator {
+  border-right-style: solid;
+  border-right-color: white;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+.page-footer li {
+  list-style: none;
+}
+.footer-link {
+  color: white;
+  font-weight: bold;
+}
